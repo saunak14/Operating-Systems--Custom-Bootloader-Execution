@@ -1,0 +1,35 @@
+Implementing bootloader programs using Bochs (BIOS emulator)
+
+
+First install Bochs-2.6.9.exe
+
+Module 1: Printing "Hello World" by pushing characters onto register:
+Step 1: Open Bochs
+Step 2: In 'Edit Options', double click on 'Disk & Boot'
+Step 3: In 'Type of floppy drive' select '3.5" 1.44M' (as our floppy size is 1.44 MB)
+Step 4: In 'First floggy image/device' browse to 'Module 1' folder and select 'floppy.img'
+Step 5: In 'Type of floppy media' select '1.44 M'
+Step 6: Check 'Write Protection'
+Step 7: Change 'Status' to 'Inserted'
+Step 8: Now open 'Boot Options' tab and check the 'Skip Floppy Boot Signature Check'
+Step 9: Press on OK
+Step 10: Press the 'Start' Button under the 'simulation' header.
+Step 11: When the screen prompts 'Press F12' press it
+Step 12: The screen will show "Hello World" after a few seconds
+
+Module 2: Displaying pixels of rectangles on the screen
+Step 1: Open Bochs
+Step 2: In 'Edit Options', double click on 'Disk & Boot'
+Step 3: In 'Type of floppy drive' select '3.5" 1.44M' (as our floppy size is 1.44 MB)
+Step 4: In 'First floggy image/device' browse to 'Module 2' folder and select 'floppy.img'
+Step 5: In 'Type of floppy media' select '1.44 M'
+Step 6: Check 'Write Protection'
+Step 7: Change 'Status' to 'Inserted'
+Step 8: Now open 'Boot Options' tab and check the 'Skip Floppy Boot Signature Check'
+Step 9: Press on OK
+Step 10: Press the 'Start' Button under the 'simulation' header.
+Step 11: When the screen prompts 'Press F12' press it
+Step 12: Press any key to continue execution
+Step 12: The screen will show a colourful array of rectangles on the screen.
+
+//Explanation about how the project was made has been included in the 'methodology' section in the report document.
