@@ -1,0 +1,14 @@
+ENTRY(__main);
+
+SECTIONS
+{
+    . = 0x7C00;
+    .text : AT(0x7C00)
+    {
+        *(.text);
+    }
+    .sig 0x7DFE : AT(0x7DFE) SUBALIGN(0)
+    {
+        SHORT(0xaa55);
+    }
+}
